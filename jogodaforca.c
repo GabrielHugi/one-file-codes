@@ -1,18 +1,11 @@
-/******************************************************************************
-
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <locale.h>
 
-int main()
-{
+int main() {
+    setlocale (LC_ALL, "");
     char palavra[30], palavraCerta[30], palavraSendoFeita[30];
     char letra;
     int randomN, tamanhoPalavra, erros, fix,i;
