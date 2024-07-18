@@ -1,1 +1,1 @@
-Codes I made because i personally wanted to or because I had to for school
+Codes that I have made mostly for my own development but also sometimes because of my school assignments.
